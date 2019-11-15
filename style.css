@@ -1,0 +1,306 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	position: relative;
+}
+
+/*Navbar section*/
+
+		.custom_nav a{
+			font-size: 30px;
+			font-weight: bold;
+			padding-right: 480px;
+			color: white;
+		}
+		.custom_nav{
+			padding: 30px;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+		}
+		.custom_nav button{
+			background-color: #1abc9c;
+			color: white;
+		}
+		.custom_nav_ul ul a{
+			font-size: 18px;
+			font-weight: bold;
+			color: white;
+		}
+		.custom_nav_ul ul a:hover{
+			color:   #1abc9c;
+		}
+	
+		.nav-pills .nav-link.active{
+			background-color:  #1abc9c;
+		}
+
+		@media screen and (min-width: 300px) and (max-width: 900px){
+			.custom_nav a{
+				font-size: 20px;
+				padding-right: 0; 
+		}
+		}
+
+/*Navbar section*/
+
+/*Banner section*/
+
+		.custom_banner{
+			margin-top: 80px;
+			background-color: #1abc9c;
+			/*text-align: center;*/
+		}
+		.custom_banner img{
+			width: 250px;
+			height: 250px;
+		}
+		.custom_banner_row{
+			height: 100vh;
+			color: white;
+		}
+		.custom_banner_row h1{
+			font-weight: bolder;
+			font-size: 100px;
+		}
+
+		.custom_banner_row span{
+			float: left;
+		}
+		.hr_div hr{
+			border:2px solid white;
+			border-radius: 5px;
+			width: 100px;
+		}
+		.hr_div{
+			float: left;
+		}
+
+
+		@media screen and (min-width: 300px) and (max-width: 900px){
+			.custom_banner_row h1{
+					font-size: 40px;
+				}
+
+			.hr_div:first-child{
+				padding-left: 50px;
+			}
+		}
+
+/*Banner section*/
+
+
+
+
+/*Portfolio section*/
+
+		.portfolio{
+			font-weight: bolder;
+			margin-top: 30px;
+			overflow: hidden;
+		}
+		.portfolio h1{
+			font-weight: bolder;
+		}
+		.portfolio .hr_div hr{
+			border:2px solid black;
+			border-radius: 5px;
+			width: 100px;	
+		}
+		.portfolio_row span{
+			float: left;
+		}
+		.portfolio h1{
+			font-size: 60px;
+		}
+		.portfolio_img img{
+			width: 100%;
+			border-radius: 15px;
+		}
+		.portfolio_effects{
+			border-radius: 15px;
+			width: 92%;
+			height: 254px;
+			background-color: rgba(26,188,156,0.9);
+			padding-top: 80px;
+			position: absolute;
+			top: 0;
+			opacity: 0;
+		}
+		.portfolio_effects i{
+			font-size: 80px;
+			color: white;
+		}
+		.portfolio_effects:hover{
+			opacity: 1;
+		}
+		.portfolio_col{
+			margin-bottom: 25px;
+			position: relative;
+		}
+
+			/*Modal section*/
+
+				.custom_modal img{
+					width: 700px;
+					height: 600px;
+				}
+				.custom_modal button:last-child{
+					padding: 10px;
+					background-color: #1abc9c;
+					color: white;
+					font-weight: bold;
+					border:none;
+					border-radius: 10px;
+					margin-bottom: 20px;
+				}
+				.custom_modal button:first-child{
+					font-size: 80px;
+					background-color: transparent;
+					color: #1abc9c;
+					font-weight: bolder;
+				}
+				.custom_modal p{
+					padding: 30px;
+					margin: 20px;
+					font-weight: normal;
+				}
+
+			/*Modal section*/
+
+/*Portfolio section*/
+
+/*About section*/
+
+		.about{
+			background-color: #1abc9c; 
+			color: white;
+			padding: 80px;
+		}
+		.about h1{
+			font-weight: bolder;
+		}
+		.about_row1 span{
+			float: left;
+		}
+		.about_row2{
+			font-size: 20px;
+			text-align: left;
+		}
+		.about button{
+			border:2px solid white;
+			border-radius: 5px;
+			background-color: transparent;
+			color: white;
+			padding: 15px;
+		}
+		.about button i{
+			font-size: 25px;
+		}
+
+		@media screen and (min-width: 300px) and (max-width: 900px){
+			.about{
+				padding: 10px;
+			}
+		}
+
+/*About section*/
+
+
+/*Contact Section*/
+		.contact{
+			margin-top: 40px;
+		}
+		.contact h1{
+			font-weight: bolder;
+		}
+		.contact_row .hr_div hr{
+			border:2px solid black;
+			border-radius: 5px;
+			width: 100px;
+			}
+		.contact_row span{
+			float: left;
+		}
+		.contact_form input{
+			border:none;
+			border-bottom: 1px solid #D5D1D0;
+			margin-bottom: 30px;
+			margin-top: 20px;
+			padding-bottom: 30px;
+			padding-top: 30px;
+		}
+		.contact_form button{
+			padding-left: 30px;
+			padding-right: 30px;
+			margin: 30px;
+			background-color:#1abc9c;
+			color: white; 
+		}
+		.contact_form input::placeholder{
+			color:#878585;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.contact_form textarea::placeholder{
+			color:#878585;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.contact_form textarea{
+			border:none;
+			border-bottom: 1px solid #D5D1D0;
+			margin-bottom: 30px;
+			margin-top: 20px;
+			padding-bottom: 20px;
+			padding-top: 20px;
+		}
+/*Contact Section*/
+
+
+/*Location section*/
+	.location{
+		background-color: #2c3e50;
+		color: white;
+		padding:80px;
+	}
+	.location .location_row i{
+		font-size: 25px;
+		border:2px solid white;
+		border-radius: 100%;
+		padding: 8px 14px;
+		margin: 5px;
+	}
+	.location .location_row i:hover{
+		background-color: white;
+		color: #2c3e50;
+		transition: all 1s;
+	}
+	.location_col h3{
+		margin-bottom: 20px;
+		font-weight: bolder;
+	}
+	@media screen and (min-width: 300px) and (max-width: 900px){
+		.location_col{
+			margin-bottom: 40px;
+		}
+	}
+
+/*Location section*/
+
+
+/*footer section*/
+
+footer{
+	background-color: #212529;
+	color: white;
+	text-align:center;
+	padding: 10px;
+}
+footer p{
+	padding-top: 10px;
+}
+
+/*footer section*/
